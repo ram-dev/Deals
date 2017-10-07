@@ -1,17 +1,42 @@
 $bottomnav-background-color: #222;
 $bottomnav-color : #fff;
 .footer{
+    color: $bottomnav-color;
     .copyright{
         color: $bottomnav-color;
         font-size: 12px;
         text-align: right;
         width: 100%;
     }
+    ul{
+        list-style: none;
+        padding:0;
+        margin:0;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .font12{
+        font-size: 14px;
+    }
     a{
         color: $bottomnav-color;
         font-size: 12px;
     }
+    .row{
+        padding:40px 10px;
+        
+    }
+    .borderr{
+        border-left: 1px solid #fff;
+    }
+    .btn-outline-success {
+        color: #e0e4e0;
+        background-image: none;
+        background-color: transparent;
+        border-color: #ffffff;
+    }
 }
-.footer .navbar {
+.footer {
     background: $bottomnav-background-color !important;
 }
