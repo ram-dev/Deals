@@ -1,6 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
+import {
+    NgbCarouselModule,
+    NgbAlertModule
+} from '@ng-bootstrap/ng-bootstrap';
+
+import { StatModule } from '../shared';
 
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
@@ -10,7 +16,9 @@ import { HomeComponent } from './home.component';
     imports: [
       CommonModule,
       HomeRoutingModule,
-      TranslateModule        
+      NgbCarouselModule.forRoot(),
+      TranslateModule,
+      StatModule       
     ],
     declarations: [  
       HomeComponent        
