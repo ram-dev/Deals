@@ -39,3 +39,4 @@
 # System Files
 .DS_Store
 Thumbs.db
+/client/yofferzClient/package-lock.json
