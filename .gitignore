@@ -42,3 +42,6 @@ Thumbs.db
 /client/yofferzClient/package-lock.json
 /client/yofferzClient1/node_modules
 /server/node_modules
+/server/logs
+/server/package-lock.json
+/client/yofferzClient1/package-lock.json
