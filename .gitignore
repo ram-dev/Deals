@@ -40,3 +40,5 @@
 .DS_Store
 Thumbs.db
 /client/yofferzClient/package-lock.json
+/client/yofferzClient1/node_modules
+/server/node_modules
