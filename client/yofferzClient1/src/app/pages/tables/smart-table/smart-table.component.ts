@@ -15,7 +15,12 @@ import { SmartTableService } from '../../../@core/data/smart-table.service';
 export class SmartTableComponent {
 
   settings = {
-    add: {
+    actions:{
+      add:false,
+      edit:false,
+      delete: false
+    },
+    /*add: {
       addButtonContent: '<i class="nb-plus"></i>',
       createButtonContent: '<i class="nb-checkmark"></i>',
       cancelButtonContent: '<i class="nb-close"></i>',
@@ -28,31 +33,37 @@ export class SmartTableComponent {
     delete: {
       deleteButtonContent: '<i class="nb-trash"></i>',
       confirmDelete: true,
-    },
+    },*/
     columns: {
       id: {
-        title: 'ID',
+        title: 'Deal ID',
         type: 'number',
+        filter:false
       },
       firstName: {
-        title: 'First Name',
+        title: 'Deal Name',
         type: 'string',
+        filter:false
       },
       lastName: {
-        title: 'Last Name',
+        title: 'Contact Name',
         type: 'string',
+        filter:false
       },
       username: {
-        title: 'Username',
+        title: 'Contact Number',
         type: 'string',
+        filter:false
       },
       email: {
-        title: 'E-mail',
+        title: 'Coupon Code',
         type: 'string',
+        filter:false
       },
       age: {
-        title: 'Age',
+        title: 'Date',
         type: 'number',
+        filter:false
       },
     },
   };
